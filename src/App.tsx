@@ -26,7 +26,6 @@ function App() {
      <Authenticator>
       {({ signOut }) => (
     <main>
-      <img src="https://static.wixstatic.com/media/7ee455_09c333a33612498e8b90bbf4035221d9~mv2.jpg/v1/fill/w_256,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ReindeerGeneric_edited_edited_edited_edi.jpg" alt="ReindeerGeneric_edited_edited_edited_edi" style="width:256px;height:316px;object-fit:cover" width="256" height="316" srcset="https://static.wixstatic.com/media/7ee455_09c333a33612498e8b90bbf4035221d9~mv2.jpg/v1/fill/w_256,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ReindeerGeneric_edited_edited_edited_edi.jpg 1x, https://static.wixstatic.com/media/7ee455_09c333a33612498e8b90bbf4035221d9~mv2.jpg/v1/fill/w_512,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ReindeerGeneric_edited_edited_edited_edi.jpg 2x" fetchpriority="high">
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
