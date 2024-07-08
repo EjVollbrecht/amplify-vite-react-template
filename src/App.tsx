@@ -26,6 +26,7 @@ function App() {
      <Authenticator>
       {({ signOut }) => (
     <main>
+      <img> src="https://static.wixstatic.com/media/7ee455_09c333a33612498e8b90bbf4035221d9~mv2.jpg/v1/fill/w_256,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ReindeerGeneric_edited_edited_edited_edi.jpg" alt="ReindeerTek"</img>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
