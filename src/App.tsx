@@ -28,7 +28,6 @@ function App() {
       {({ signOut }) => (
     <main>
       <picture>
-        <source srcset={reindeertek} type="image/jpeg" />
         <img src={reindeertek} alt="Welcome" />
       </picture>
       <h1>Reindeertek</h1>
