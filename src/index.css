@@ -32,15 +32,13 @@ body {
   color: black;
 }
 
-
-.content {
-  background-color: #ddd;
-  padding: 10px;
-  height: 80vh;
+img{
+  float: none;
+  align: center;
 }
-
-
 .footer {
+  position: fixed;
+  bottom: 0;
   background-color: #f1f1f1;
   padding: 10px;
 }
