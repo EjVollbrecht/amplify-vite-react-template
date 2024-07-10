@@ -3,6 +3,7 @@ import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
+import reindeertek from '$public/reindeertek.jpeg'
 
 const client = generateClient<Schema>();
 
@@ -26,7 +27,11 @@ function App() {
      <Authenticator>
       {({ signOut }) => (
     <main>
-      <h1>My todos</h1>
+      <picture>
+        <source srcset={reindeertek} type="image/jpeg" />
+        <img src={reindeertek} alt="Welcome" />
+      </picture>
+      <h1>Reindeertek</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (<li
@@ -35,11 +40,8 @@ function App() {
         ))}
       </ul>
       <div>
-        🥳 App successfully hosted. Try creating a new todo.
+        A different type of Federal contracting technology consulting company 
         <br />
-        <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-          Review next step of this tutorial.
-        </a>
       </div>
         <button onClick={signOut}>Sign out</button>
     </main>
