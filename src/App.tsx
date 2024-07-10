@@ -3,7 +3,9 @@ import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
-import reindeertek from '$public/reindeertek.jpeg'
+<script>
+  import reindeertek from '$public/reindeertek.jpeg';
+</script>
 
 const client = generateClient<Schema>();
 
@@ -28,7 +30,7 @@ function App() {
       {({ signOut }) => (
     <main>
       <picture>
-        <img src={reindeertek} alt="Welcome" />
+      <img src={reindeertek} alt = "Welcome"/>
       </picture>
       <h1>Reindeertek</h1>
       <button onClick={createTodo}>+ new</button>
