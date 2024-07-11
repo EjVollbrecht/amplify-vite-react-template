@@ -26,7 +26,7 @@ function App() {
      <Authenticator>
       {({ signOut }) => (
     <main>
-      <img src="amplify-vite-react-template/public/reindeertek.jpeg"/>
+      <img src="../reindeertek.jpeg"/>
       <h1>Reindeertek</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
