@@ -27,7 +27,7 @@ function App() {
       {({ signOut }) => (
     <main>
       <img src="amplify-vite-react-template/public/reindeertek.jpeg"/>
-      <h1>Reindeertek</h1>
+      <h1 style="text-align:center;font-size:100px;">Reindeertek</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (<li
