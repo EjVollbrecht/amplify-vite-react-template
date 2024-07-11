@@ -68,7 +68,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+h1{
+  text-align:center;
+  font-size:100px;
+  font-color: #ffffff;
+}
 ul {
   padding-inline-start: 0;
   margin-block-start: 0;
